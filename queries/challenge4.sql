@@ -21,4 +21,4 @@ SELECT
   productid,
   total_value as OrderedAmount	
 FROM ranked_prod
-where rnk = 1   
+where rnk = 1 -- this line is the one which is filtering the results 
